@@ -35,6 +35,9 @@
   header ul li a {
     font-size: 0.7em;
   }
+  .bgcolor {
+    height: 600px;
+  }
   .logo img {
     width: 90%;
   }
@@ -56,6 +59,9 @@
   }
 }
 @media screen and (max-width: 435px) {
+  .bgcolor {
+    height: 400px;
+  }
   header ul li a {
     font-size: 0.6em;
   }

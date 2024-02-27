@@ -1,0 +1,33 @@
+.left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  footer {
+    background-color: $plava;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  
+    .footer-glavni {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      p {
+        margin: 0;
+      }
+  
+      a {
+        text-decoration: none;
+        color: honeydew;
+      }
+      .ikonica{
+          font-size: 24px;
+          margin: 0 8px;
+      }
+    }
+  }

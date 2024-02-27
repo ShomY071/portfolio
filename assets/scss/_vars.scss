@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
+
+$plava: #404de6;
+$ljubicasta: #6f42c1;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.cleaner {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bgcolor {
+  padding: 1em;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(120deg, $ljubicasta, $plava);
+}

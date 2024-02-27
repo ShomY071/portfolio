@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.cleaner {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bgcolor {
+  padding: 1em;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(120deg, #6f42c1, #404de6);
+}
+
+header {
+  width: 70%;
+  margin: 0px auto;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header ul li {
+  display: block;
+}
+header ul li a {
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 100%;
+}
+
+#home {
+  width: 100%;
+  margin-top: 1.5em;
+}
+#home #caption {
+  width: 50%;
+  margin: 0px auto;
+}
+#home #caption h1 {
+  font-size: 6.6em;
+  color: #fff;
+}
+#home #caption p {
+  font-size: 1.9em;
+  color: #fff;
+}
+
+#picture {
+  width: 30%;
+  margin: auto;
+}
+#picture img {
+  width: 100%;
+  height: 100%;
+}
+
+#services,
+#skills,
+#projects,
+#aboutme,
+#contactmain {
+  width: 70%;
+  text-align: center;
+  margin: 8em auto;
+}
+
+.h2Caption {
+  font-size: 3.5em;
+}
+
+#skillmain {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#skillmain .skill {
+  margin-bottom: 15px;
+}
+#skillmain .skill .skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#skillmain .skill .skill-bar {
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+#skillmain .skill .skill-bar .skill-level {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #404de6;
+}
+
+/* Service styles */
+.service {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service h2 {
+  margin-top: 0;
+}
+.service p {
+  margin-bottom: 10px;
+}
+
+#projects-main {
+  margin-top: 30px;
+  padding-top: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects-main h1 {
+  font-family: "Burbank";
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.prj-sajtovi {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sajt-prm {
+  width: 48%;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.sajt-prm img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #404de6;
+  animation: btnScaleOut 1s ease 0s 1 normal forwards;
+  width: 94%;
+}
+.sajt-prm img:hover {
+  animation: btnScale 1s ease 0s 1 normal forwards;
+}
+
+.about-me {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me img {
+  width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.about-me img:hover {
+  box-shadow: 0 0 10px #404de6;
+}
+.about-me h2,
+.about-me p {
+  padding: 0.7%;
+}
+.about-me .about-me-details {
+  text-align: center;
+}
+
+.contact-me {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-me h2 {
+  margin-top: 0;
+}
+.contact-me p {
+  margin-bottom: 10px;
+}
+.contact-me .contact-form {
+  margin-top: 20px;
+}
+.contact-me .contact-form input,
+.contact-me .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.contact-me .contact-form input:focus,
+.contact-me .contact-form textarea:focus {
+  outline: #404de6;
+  border: 1px solid #404de6;
+  box-shadow: 0 0 8px #404de6;
+}
+.contact-me .contact-form textarea {
+  resize: none;
+}
+.contact-me .contact-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+footer {
+  background-color: #404de6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer .footer-glavni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-glavni p {
+  margin: 0;
+}
+footer .footer-glavni a {
+  text-decoration: none;
+  color: honeydew;
+}
+footer .footer-glavni .ikonica {
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+/* Animations */
+@keyframes btnScale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes btnScaleOut {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .service {
+    padding: 15px;
+  }
+  .about-me img {
+    width: 350px;
+  }
+  .sajt-prm {
+    width: 100%;
+  }
+  footer .footer-glavni {
+    flex-direction: column;
+  }
+  footer a {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skill-name {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 865px) {
+  header {
+    width: 100%;
+  }
+  #home #caption p {
+    font-size: 1.2em;
+  }
+  #picture {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 580px) {
+  header ul li a {
+    font-size: 0.7em;
+  }
+  .logo img {
+    width: 90%;
+  }
+  #home #caption {
+    width: 70%;
+  }
+  #home #caption h1 {
+    font-size: 4em;
+  }
+  #home #caption p {
+    font-size: 1.2em;
+  }
+  #picture {
+    width: 40%;
+    margin-top: 5em;
+  }
+  .about-me img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 435px) {
+  header ul li a {
+    font-size: 0.6em;
+  }
+  .logo img {
+    width: 70%;
+  }
+  .h2Caption {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 410px) {
+  header ul li a {
+    font-size: 0.5em;
+  }
+  .logo img {
+    width: 60%;
+  }
+  .h2Caption {
+    font-size: 2.5em;
+  }
+}/*# sourceMappingURL=style.css.map */
